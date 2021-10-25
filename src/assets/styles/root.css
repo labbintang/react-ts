@@ -1,0 +1,9 @@
+:root {
+  --app-padding-x: 1.2rem;
+  --app-font-color: #777;
+  --navigation-bar-color: #ff88d1;
+  --navigation-bar-height: 3rem;
+  --navigation-bar-margin-bottom: 1rem;
+  --navigation-bar-bottom-color: #ccc;
+  --navigation-font-color: #222222;
+}

@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 const Register = () => {
-  return <div>Register</div>;
+  return <div>This is your Register page.</div>;
 };
 
 export { Register };

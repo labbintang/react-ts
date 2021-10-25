@@ -2,10 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Route, Routes } from 'react-router';
 import { BrowserRouter } from 'react-router-dom';
+import { Login, Register } from './pages';
 import App from './App';
-import { Login, Register } from './layouts';
+import '@assets/styles/body.css';
 
-const logged = false;
+const logged = true;
 
 ReactDOM.render(
   <React.StrictMode>

@@ -1,0 +1,14 @@
+@import 'root.css';
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--navigation-font-color)
+}

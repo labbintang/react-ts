@@ -6,7 +6,7 @@ interface DefaultLayoutProps {
   children: React.ReactNode;
 }
 
-const Default = (props: DefaultLayoutProps) => {
+const Auth = (props: DefaultLayoutProps) => {
   return (
     <>
       <NavigationBar />
@@ -15,4 +15,4 @@ const Default = (props: DefaultLayoutProps) => {
   );
 };
 
-export { Default };
+export { Auth };

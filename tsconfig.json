@@ -26,6 +26,9 @@
             "@layouts": [
                 "./src/layouts"
             ],
+            "@pages": [
+                "./src/pages"
+            ],
             "@/*": [
                 "./src/*"
             ],
@@ -37,6 +40,12 @@
             ],
             "@assets/*": [
                 "./src/assets/*"
+            ],
+            "@config/*": [
+                "./src/config/*"
+            ],
+            "@pages/*": [
+                "./src/pages/*"
             ]
         }
     },
