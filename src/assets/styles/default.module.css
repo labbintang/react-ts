@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 .container {
-  padding-top: calc(var(--navigation-bar-height) + var(--navigation-bar-margin-bottom));
+  padding-top: calc(
+    var(--navigation-bar-height) + var(--navigation-bar-margin-bottom)
+  );
   padding-left: var(--app-padding-x);
   font-family: 'Open Sans', sans-serif;
   color: var(--app-font-color);

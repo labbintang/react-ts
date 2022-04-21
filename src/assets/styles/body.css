@@ -1,6 +1,7 @@
 @import 'root.css';
 
-html, body {
+html,
+body {
   padding: 0;
   margin: 0;
 }
@@ -10,5 +11,5 @@ a {
 }
 
 a:visited {
-  color: var(--navigation-font-color)
+  color: var(--navigation-font-color);
 }

@@ -3,6 +3,7 @@
 > Edit `README.md` in order to describe your application properly.
 
 This template is built using :
+
 - React
 - Vite
 - vite-aliases ( automating alias paths )
@@ -13,11 +14,19 @@ This template is built using :
 This template is using css module.
 
 ## How To Run
+
 ### Install npm packages
+
 `npm install` or `npm i`
+
 ### Run development server
+
 `npm run dev`
+
 ### Build for production
+
 `npm run build`
+
 ### Run production server ( after building for production )
+
 `npm run serve`
