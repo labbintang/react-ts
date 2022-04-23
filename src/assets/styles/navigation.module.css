@@ -53,6 +53,31 @@
   height: 100vh;
 }
 
+.sideBarMenu {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin:0;
+  padding-top: 0.3rem;
+  padding-left: 0;
+  font-family: 'Prompt', sans-serif;
+}
+
+.sideBar {
+  height: calc(100vh - var(--navigation-bar-height));
+  background-color: var(--navigation-bar-color);
+  padding-left: var(--app-padding-x);
+  padding-right: var(--app-padding-x);
+}
+
+.sideBarExtended {
+  min-width: 10rem;
+}
+
+.sideBarMinimized {
+  min-width: 4rem;
+}
+
 .burger {
   cursor: pointer;
 }

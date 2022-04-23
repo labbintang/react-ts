@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { NavigationBar } from '@components';
 import styles from '@assets/styles/default.module.css';
 
 interface DefaultLayoutProps {
@@ -7,12 +6,7 @@ interface DefaultLayoutProps {
 }
 
 const Auth = (props: DefaultLayoutProps) => {
-  return (
-    <>
-      <NavigationBar />
-      <main className={styles.container}>{props.children}</main>
-    </>
-  );
+  return <main className={styles.container}>{props.children}</main>;
 };
 
 export { Auth };

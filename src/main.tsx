@@ -1,21 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { Route, Routes } from 'react-router';
+import * as React from 'react';
+import { createRoot } from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
-import { Login, Register } from './pages';
-import App from './App';
+import { TopMenuBar } from '@components';
+import { Routes } from './Routes';
 import '@assets/styles/body.css';
 
-const logged = true;
+const container = document.getElementById('root');
+const root = createRoot(container!);
 
-ReactDOM.render(
+root.render(
   <React.StrictMode>
+    <TopMenuBar />
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={logged ? <App /> : <Login />} />
-        <Route caseSensitive path="/register" element={<Register />} />
-      </Routes>
+      <Routes />
     </BrowserRouter>
-  </React.StrictMode>,
-  document.getElementById('root')
+  </React.StrictMode>
 );

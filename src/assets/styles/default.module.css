@@ -5,7 +5,15 @@
   padding-top: calc(
     var(--navigation-bar-height) + var(--navigation-bar-margin-bottom)
   );
-  padding-left: var(--app-padding-x);
   font-family: 'Open Sans', sans-serif;
   color: var(--app-font-color);
+}
+
+.main {
+  padding-left: var(--app-padding-x);
+  padding-right: var(--app-padding-x);
+}
+
+.isFlex {
+  display: flex;
 }

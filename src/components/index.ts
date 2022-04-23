@@ -1,1 +1,1 @@
-export { NavigationBar } from './NavigationBar';
+export { TopMenuBar } from './TopMenuBar';

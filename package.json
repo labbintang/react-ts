@@ -8,16 +8,18 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@chakra-ui/media-query": "^2.0.4",
     "@tanem/use-document-title": "^1.0.103",
+    "jotai": "^1.6.4",
     "lodash": "^4.17.21",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-responsive": "^9.0.0-beta.6",
-    "react-router-dom": "^6.3.0"
+    "react-router-dom": "^6.3.0",
+    "valtio": "^1.6.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.5",
-    "@types/react-dom": "^18.0.1",
+    "@types/react-dom": "^18.0.2",
     "@types/vite-plugin-react-svg": "^0.2.1",
     "@typescript-eslint/eslint-plugin": "^5.20.0",
     "@typescript-eslint/parser": "^5.20.0",
@@ -33,6 +35,6 @@
     "vite-aliases": "^0.9.2",
     "vite-plugin-html": "^3.2.0",
     "vite-plugin-markdown": "^2.0.2",
-    "vite-plugin-react-svg": "^0.2.0"
+    "vite-plugin-svgr": "^1.1.0"
   }
 }
