@@ -14,6 +14,7 @@ export default defineConfig({
     aliases({
       useTypescript: true,
       useConfig: true,
+      useIndexes: true,
     }),
     createHtmlPlugin({
       minify: true,

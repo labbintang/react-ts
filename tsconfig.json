@@ -26,15 +26,6 @@
             "@/*": [
                 "./src/*"
             ],
-            "@components": [
-                "./src/components"
-            ],
-            "@layouts": [
-                "./src/layouts"
-            ],
-            "@pages": [
-                "./src/pages"
-            ],
             "@components/*": [
                 "./src/components/*"
             ],
@@ -52,6 +43,33 @@
             ],
             "@stores/*": [
                 "./src/stores/*"
+            ],
+            "@libs/*": [
+                "./src/libs/*"
+            ],
+            "@assets": [
+                "./src/assets"
+            ],
+            "@components": [
+                "./src/components"
+            ],
+            "@config": [
+                "./src/config"
+            ],
+            "@layouts": [
+                "./src/layouts"
+            ],
+            "@libs": [
+                "./src/libs"
+            ],
+            "@pages": [
+                "./src/pages"
+            ],
+            "@stores": [
+                "./src/stores"
+            ],
+            "@": [
+                "./src"
             ]
         }
     },

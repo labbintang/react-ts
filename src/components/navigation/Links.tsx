@@ -1,19 +1,5 @@
 import * as React from 'react';
-
-interface navProps {
-  name: string;
-  link: string;
-  external?: boolean;
-  icon?: string;
-  children?: navProps[];
-}
-
-interface LinkProps {
-  style: string;
-  verticalStyle?: string;
-  isVertical?: boolean;
-  items: navProps[];
-}
+import { LinkProps } from './NavigationProps';
 
 const Links = (props: LinkProps) => {
   const className = props.isVertical
