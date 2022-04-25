@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
 .container {
   padding-top: calc(
     var(--navigation-bar-height) + var(--navigation-bar-margin-bottom)

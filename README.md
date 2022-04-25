@@ -1,5 +1,7 @@
 # Vili React Typescript
 
+Sidebar Icons by [Omar Safaa](https://iconscout.com/contributors/omarsafaa) on [Iconscout](https://iconscout.com)
+
 > Edit `README.md` in order to describe your application properly.
 
 This template is built using :
@@ -11,7 +13,7 @@ This template is built using :
 - lodash ( amazing library for Javascript and Typescript )
 - React Router ( currently version 6 Beta )
 
-This template is using css module.
+This template is using CSS module.
 
 ## How To Run
 

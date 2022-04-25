@@ -19,6 +19,7 @@ root.render(
   </React.StrictMode>
 );
 
+// Load Theme for Vili
 themeLoader(isLightProxy.state);
 
 subscribeKey(isLightProxy, 'state', () => {

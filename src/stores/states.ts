@@ -1,7 +1,9 @@
+import { atom } from 'jotai';
 import { proxy } from 'valtio';
 import { atomWithProxy } from 'jotai/valtio';
 import { subscribeKey } from 'valtio/utils';
 
+// Persistent Dark Mode State using Local Storage
 const isLightProxy = proxy({
   state: localStorage.getItem('theme') === 'true' ?? true,
 });
@@ -12,4 +14,7 @@ subscribeKey(isLightProxy, 'state', (key) =>
   localStorage.setItem('theme', key.toString())
 );
 
-export { isLightAtom, isLightProxy };
+// Sidebar width state
+const sideBarExtendedAtom = atom(false);
+
+export { isLightAtom, isLightProxy, sideBarExtendedAtom };

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { NavigationVertical, NavigationHorizontal } from './navigation';
+import { NavigationVertical, NavigationHorizontal } from '.';
 import burger from '@assets/images/burger.svg';
 import close from '@assets/images/close.svg';
 import nav from '@config/topMenu.json';

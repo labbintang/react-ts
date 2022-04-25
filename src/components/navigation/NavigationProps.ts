@@ -1,3 +1,5 @@
+import React from 'react';
+
 interface NavigationHorizontalStyleProps {
   horizontalBar?: string;
   content?: string;
@@ -49,4 +51,15 @@ export interface LinkProps {
   verticalStyle?: string;
   isVertical?: boolean;
   items: navProps[];
+}
+
+export interface SideBarExtendButtonProps {
+  className?: string;
+  content: React.ReactNode | string;
+  extendIcon: string;
+  collapseIcon: string;
+}
+
+export interface SideBarProps {
+  topContent: React.ReactNode;
 }
