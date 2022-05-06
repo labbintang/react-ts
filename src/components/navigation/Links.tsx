@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { useAtomValue } from 'jotai';
 import { sideBarExtendedAtom } from '@/stores/states';
-import { MenuIcon } from './menuIcon';
+import { MenuIcon } from './MenuIcon';
 import { LinkProps } from './NavigationProps';
 
 const Links = (props: LinkProps) => {

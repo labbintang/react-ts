@@ -9,6 +9,7 @@ interface NavigationHorizontalStyleProps {
 
 interface NavigationVerticalStyleProps {
   verticalBar?: string;
+  horizontalBar?: string;
   burger?: string;
   links?: string;
   isVertical?: string;
@@ -46,7 +47,8 @@ export interface NavigationVerticalProps {
   logoContent?: string;
   closeImage: string;
   burgerImage: string;
-  items: navProps[];
+  topNavItems: navProps[];
+  sideBarItems?: navProps[];
 }
 
 export interface LogoProps {

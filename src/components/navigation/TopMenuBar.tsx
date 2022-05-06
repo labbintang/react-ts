@@ -2,7 +2,8 @@ import * as React from 'react';
 import { NavigationTabletorMobile, NavigationHorizontal } from '.';
 import burger from '@assets/images/navigation/default/burger.svg';
 import close from '@assets/images/navigation/default/close.svg';
-import nav from '@config/topMenu.json';
+import topMenu from '@config/topMenu.json';
+import sideBarNav from '@config/sideBarMenu.json';
 import styles from '@assets/styles/navigations/style.module.css';
 
 const TopMenuBar = () => {
@@ -15,7 +16,8 @@ const TopMenuBar = () => {
   if (isOpen)
     return (
       <NavigationTabletorMobile
-        items={nav}
+        topNavItems={topMenu}
+        sideBarItems={sideBarNav}
         logoStyle={styles.logo}
         styles={styles}
         closeImage={close}
@@ -27,7 +29,7 @@ const TopMenuBar = () => {
   return (
     <NavigationHorizontal
       burgerImage={burger}
-      items={nav}
+      items={topMenu}
       logoStyle={styles.logo}
       styles={styles}
       setOpen={handleClick}

@@ -21,11 +21,19 @@ const NavigationTabletorMobile = (props: NavigationVerticalProps) => {
       />
       <Logo style={props.logoStyle} />
       <Links
-        items={props.items}
-        isVertical
-        verticalStyle={props.styles?.isVertical}
+        items={props.topNavItems}
+        isVertical={!(props.sideBarItems && props.sideBarItems.length > 0)}
+        verticalStyle={props.styles?.horizontalBar}
         style={props.styles?.links}
       />
+      {props.sideBarItems && (
+        <Links
+          items={props.sideBarItems}
+          isVertical
+          verticalStyle={props.styles?.isVertical}
+          style={props.styles?.links}
+        />
+      )}
     </nav>
   );
 };
