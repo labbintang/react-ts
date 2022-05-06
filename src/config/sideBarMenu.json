@@ -6,6 +6,7 @@
   {
     "name": "github",
     "external": true,
-    "link": "http://github.com"
+    "link": "http://github.com",
+    "icon": "github-icon"
   }
 ]

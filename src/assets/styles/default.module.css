@@ -9,6 +9,7 @@
 .main {
   padding-left: var(--app-padding-x);
   padding-right: var(--app-padding-x);
+  padding-top: 1rem;
 }
 
 .isFlex {

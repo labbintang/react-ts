@@ -3,7 +3,7 @@ import { Logo } from './Logo';
 import { Links } from './Links';
 import { NavigationVerticalProps } from './NavigationProps';
 
-const NavigationVertical = (props: NavigationVerticalProps) => {
+const NavigationTabletorMobile = (props: NavigationVerticalProps) => {
   const closeStyle: React.CSSProperties = {
     position: 'absolute',
     right: 4,
@@ -30,4 +30,4 @@ const NavigationVertical = (props: NavigationVerticalProps) => {
   );
 };
 
-export { NavigationVertical };
+export { NavigationTabletorMobile };

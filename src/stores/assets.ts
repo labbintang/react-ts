@@ -1,7 +1,7 @@
-import { atom } from 'jotai';
+import { proxy } from 'valtio';
 
-export const imagesAtom = atom<{ [key: string]: any }>(
+export const navigationIconProxy = proxy<{ [key: string]: any }>(
   import.meta.globEager(
-    '../assets/images/**/*.(svg|SVG|jpg|JPG|jpeg|JPEG|PNG|png|gif|GIF)'
+    '../assets/images/navigation/*.(svg|SVG|jpg|JPG|jpeg|JPEG|PNG|png|gif|GIF)'
   )
 );

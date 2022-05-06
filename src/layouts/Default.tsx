@@ -1,9 +1,9 @@
 import * as React from 'react';
 import styles from '@assets/styles/default.module.css';
 import { SideBar, SideBarExtendButton } from '@components/navigation';
-import extendIcon from '@assets/images/navigation/expand-right.svg';
-import collapseIcon from '@assets/images/navigation/collapse-left.svg';
-import buttonStyle from '@assets/styles/sideBarExtendButton.module.css';
+import extendIcon from '@assets/images/navigation/default/expand-right.svg';
+import collapseIcon from '@assets/images/navigation/default/collapse-left.svg';
+import buttonStyle from '@assets/styles/navigations/style.module.css';
 
 interface DefaultLayoutProps {
   children: React.ReactNode;
@@ -17,7 +17,7 @@ const Default = (props: DefaultLayoutProps) => {
         <SideBar
           topContent={
             <SideBarExtendButton
-              className={buttonStyle.button}
+              className={buttonStyle.extendedButton}
               extendIcon={extendIcon}
               collapseIcon={collapseIcon}
               content="Collapse"

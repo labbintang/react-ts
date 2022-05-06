@@ -1,9 +1,9 @@
 import * as React from 'react';
-import { NavigationVertical, NavigationHorizontal } from '.';
-import burger from '@assets/images/burger.svg';
-import close from '@assets/images/close.svg';
+import { NavigationTabletorMobile, NavigationHorizontal } from '.';
+import burger from '@assets/images/navigation/default/burger.svg';
+import close from '@assets/images/navigation/default/close.svg';
 import nav from '@config/topMenu.json';
-import styles from '@assets/styles/navigation.module.css';
+import styles from '@assets/styles/navigations/style.module.css';
 
 const TopMenuBar = () => {
   const [isOpen, setOpen] = React.useState<boolean>(false);
@@ -14,7 +14,7 @@ const TopMenuBar = () => {
 
   if (isOpen)
     return (
-      <NavigationVertical
+      <NavigationTabletorMobile
         items={nav}
         logoStyle={styles.logo}
         styles={styles}

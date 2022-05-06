@@ -1,0 +1,23 @@
+.logo {
+  font-size: 2rem;
+  font-family: 'Prompt', sans-serif;
+  color: #f2f9ff;
+}
+
+.links {
+  display: flex;
+  font-family: 'Prompt', sans-serif;
+  list-style: none;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+.link {
+  color: var(--navigation-font-color);
+}
+
+.burger {
+  cursor: pointer;
+}

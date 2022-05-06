@@ -19,7 +19,15 @@ interface navProps {
   link: string;
   external?: boolean;
   icon?: string;
+  noIcon?: boolean;
   children?: navProps[];
+}
+
+export interface menuIconProps {
+  icon?: string;
+  style?: string | React.CSSProperties;
+  noIcon?: boolean;
+  name: string;
 }
 
 export interface NavigationHorizontalProps {
@@ -51,6 +59,7 @@ export interface LinkProps {
   verticalStyle?: string;
   isVertical?: boolean;
   items: navProps[];
+  isSidebar?: boolean;
 }
 
 export interface SideBarExtendButtonProps {

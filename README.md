@@ -1,6 +1,6 @@
 # Vili React Typescript
 
-Sidebar Icons by [Omar Safaa](https://iconscout.com/contributors/omarsafaa) on [Iconscout](https://iconscout.com)
+Sidebar Icons by [Omar Safaa](https://iconscout.com/contributors/omarsafaa), [Kerismaker](https://iconscout.com/contributors/kerismaker) on [Iconscout](https://iconscout.com)
 
 > Edit `README.md` in order to describe your application properly.
 

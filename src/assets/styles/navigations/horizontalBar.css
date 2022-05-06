@@ -1,0 +1,16 @@
+.horizontalBar {
+  width: 100%;
+  position: fixed;
+  border-bottom: 1px solid var(--navigation-bar-bottom-color);
+  background-color: var(--navigation-bar-color);
+  box-shadow: 0 0.1rem 1rem var(--navigation-bar-color);
+  z-index: 10;
+}
+
+.content {
+  height: var(--navigation-bar-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 var(--app-padding-x);
+}
