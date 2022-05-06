@@ -1,12 +1,12 @@
 import * as React from 'react';
 import { useAtom } from 'jotai';
-import { LightDarkToggle } from 'react-light-dark-toggle';
 import { useMediaQuery } from '@chakra-ui/media-query';
 import { isLightAtom } from '@/stores/states';
 
 import { NavigationHorizontalProps } from './NavigationProps';
-import { Logo } from './Logo';
-import { Links } from './Links';
+import light from '@assets/images/navigation/default/light.svg';
+import dark from '@assets/images/navigation/default/dark.svg';
+import { Logo, Links } from '.';
 
 const NavigationHorizontal = (props: NavigationHorizontalProps) => {
   const [isTabletOrMobile] = useMediaQuery('(max-width: 1224px)');
@@ -30,9 +30,10 @@ const NavigationHorizontal = (props: NavigationHorizontalProps) => {
         ) : (
           <div style={navigationItems}>
             <Links items={props.items} style={props.styles?.links} />
-            <LightDarkToggle
-              onToggle={() => setLightMode({ state: !isLightMode.state })}
-              isLight={isLightMode.state}
+            <img
+              src={isLightMode.state ? dark : light}
+              alt="Theme Switch"
+              onClick={() => setLightMode({ state: !isLightMode.state })}
             />
           </div>
         )}
