@@ -15,6 +15,6 @@ subscribeKey(isLightProxy, 'state', (key) =>
 );
 
 // Sidebar width state
-const sideBarExtendedAtom = atom(false);
+const sideBarExtendedAtom = atom(true);
 
 export { isLightAtom, isLightProxy, sideBarExtendedAtom };
