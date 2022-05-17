@@ -15,7 +15,7 @@ interface NavigationVerticalStyleProps {
   isVertical?: string;
 }
 
-interface navProps {
+export interface navProps {
   name: string;
   link: string;
   external?: boolean;

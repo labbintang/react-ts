@@ -19,7 +19,7 @@ const Links = (props: LinkProps) => {
   return (
     <ul className={props.style}>
       {props.items.map((nav, index) => {
-        if (nav.children)
+        if (nav.children) {
           if (props.isSidebar)
             return (
               <li key={index}>
@@ -54,24 +54,24 @@ const Links = (props: LinkProps) => {
                 </section>
               </li>
             );
-          else
-            return (
-              <li key={index}>
-                <a className={className} href={nav.link}>
-                  <MenuIcon
-                    name={nav.name}
-                    icon={nav.icon}
-                    noIcon={nav.noIcon}
-                    style={collapsedIconStyle}
-                  />
-                  {props.isSidebar ? (
-                    isExtended && <span>{nav.name}</span>
-                  ) : (
-                    <span>{nav.name}</span>
-                  )}
-                </a>
-              </li>
-            );
+        } else
+          return (
+            <li key={index}>
+              <a className={className} href={nav.link}>
+                <MenuIcon
+                  name={nav.name}
+                  icon={nav.icon}
+                  noIcon={nav.noIcon}
+                  style={collapsedIconStyle}
+                />
+                {props.isSidebar ? (
+                  isExtended && <span>{nav.name}</span>
+                ) : (
+                  <span>{nav.name}</span>
+                )}
+              </a>
+            </li>
+          );
       })}
     </ul>
   );

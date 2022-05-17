@@ -22,5 +22,19 @@
         "icon": "github-icon"
       }
     ]
+  },
+  {
+    "name": "github",
+    "external": true,
+    "link": "http://github.com",
+    "icon": "github-icon",
+    "children": [
+      {
+        "name": "github",
+        "external": true,
+        "link": "http://github.com",
+        "icon": "github-icon"
+      }
+    ]
   }
 ]
